@@ -1,5 +1,4 @@
-package TwoSum
-
+package main
 
 func twoSum(nums []int, target int) []int {
 	length := len(nums)
@@ -19,7 +18,3 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-
-
-
-

@@ -21,7 +21,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	for ;p1!=nil || p2!=nil || carry!=0;  {
 
 		var tmp = new(ListNode)
-
 		v1 := 0
 		v2 := 0
 		if p1!=nil{

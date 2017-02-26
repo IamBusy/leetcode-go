@@ -2,9 +2,10 @@ package MedianofTwoSortedArrays
 
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	length := len(nums1)+len(nums2)
+
 	len1 := len(nums1)
 	len2 := len(nums2)
+	length := len1+len2
 
 	//var merged [length]int
 	var merged = make([]int,length,length)

@@ -9,10 +9,7 @@ func longestPalindrome(s string) string  {
 	longestStr := ""
 	for i:=0;i<2*length-1 ;i++  {
 
-		//var oddStr string = string(s[i])
-		//var evenStr string= ""
-		//var leftCent int = i
-		//var rightCent int = i
+
 		var substr string
 		var j,leftCent,rightCent ,maxJ int
 		if i%2 == 0{

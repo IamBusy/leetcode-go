@@ -1,0 +1,5 @@
+.idea
+bin
+main.go
+leetcode-go.iml
+*/*.iml

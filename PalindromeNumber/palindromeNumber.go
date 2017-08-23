@@ -12,8 +12,8 @@ func isPalindrome(x int) bool {
 	var temp = 0
 	var originX = x
 
-	for ;x >0;x=x/10  {
-		temp = temp * 10 + x%10
+	for ; x > 0; x = x / 10 {
+		temp = temp*10 + x%10
 	}
-	return temp==originX
+	return temp == originX
 }

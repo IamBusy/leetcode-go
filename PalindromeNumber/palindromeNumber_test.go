@@ -1,8 +1,8 @@
 package PalindromeNumber
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestIsPalindrome(t *testing.T) {

@@ -1,5 +1,5 @@
 .idea
 bin
-main.go
+./main.go
 leetcode-go.iml
 */*.iml

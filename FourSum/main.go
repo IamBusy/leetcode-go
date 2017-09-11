@@ -1,6 +1,6 @@
 package FourSum
 
-import "fmt"
+import "sort"
 
 func fourSum(nums []int, target int) [][]int {
 	length := len(nums)
